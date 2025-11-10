@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+}
+#head1{
+    height: 130px;
+    /* background-color: rgb(27, 25, 25); */
+    margin-top: 0px;
+    border-radius: 0px;
+    display: flow-root;
+    margin-bottom: 0px;
+    background: linear-gradient(to bottom,#3f3f3f,#000000);
+}
+#head2{
+    background-color: aliceblue;
+    height: 450px;
+    
+}
+#mainv1{
+    width: 800px;
+    display: inline-block;
+    margin: 0px 345px;
+    
+}
+#myButton{
+    font-size: 30px;
+    padding: 12px;
+    background-color: brown;
+    color: white;
+    border: 2px solid ;
+    transition: 0.5s;
+}
+#myButton:hover{
+    background-color: whitesmoke;
+    color: black;
+    transform: scale(1.25);
+
+    
+}
+
+
+
