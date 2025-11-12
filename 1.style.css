@@ -170,7 +170,7 @@ body{
   height: 950px;
   background-color: black;
   position: relative;
-  background-image: url("poster.png");
+  background-image: url("");
   margin-top: 100px;
 
 }
@@ -219,6 +219,26 @@ body{
 }
 #bottom1{
   width: 100%;
-  height: 100px;
+  height: 90px;
   background-color: rgb(40, 39, 39);
+  margin-top: 80px;
+}
+#download{
+  font-size:15px;
+  padding: 10px;
+  margin-left: 37%;
+  margin-top: 25px;
+  background-color: rgb(40, 39, 39);
+  color:white;
+  border: none;
+  font-weight: bold;
+}
+#download:hover{
+  cursor: pointer;
+  background-color: rgb(61, 59, 59);
+}
+#end{
+  width: 100%;
+  height: 500px;
+  background-color: black;
 }
