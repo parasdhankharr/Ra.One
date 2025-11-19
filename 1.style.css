@@ -1,11 +1,11 @@
 body{
     margin: 0px;
     /* Adding a subtle grid background for a techy feel */
-    background-color: #121212; /* A dark background is needed for the grid to show */
-    color: #EAEAEA;
+    background-color: #616060; /* A dark background is needed for the grid to show */
+    color: #161515;
     background-image: 
-        linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+        linear-gradient(rgba(182, 181, 181, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(241, 217, 217, 0.05) 1px, transparent 1px);
     background-size: 40px 40px;
 }
 #head1{
@@ -245,4 +245,22 @@ body{
 .logos:hover{
   cursor: pointer;
 
+}
+#iconM{
+  width: 75px;
+  height: 80px;
+  margin-left: 705px;
+
+}
+#iconM:hover{
+  cursor: pointer;
+}
+footer{
+  text-align: center;
+  
+}
+#last{
+  height: 90px;
+  width: 300px;
+  margin-left: 595px;
 }
