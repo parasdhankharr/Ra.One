@@ -65,28 +65,94 @@ body{
 }
 #sec1{
   position: absolute;
-  height: 380px;
-  width: 380px;
-  margin: 30px;
+  height: 450px;
+  width: 400px;
+  margin-top: 0px;
+  margin-left: 10px;
   background-color:black;
 
 }
 #sec2{
   position: absolute;
-  height: 380px;
-  width: 480px;
+  height: 450px;
+  width: 510px;
   background-color: black;  
-  left: 530px;
-  margin-top: 30px;
+  left: 500px;
+  margin-top: 0px;
 }
 #sec3{
   position: absolute;
-  height: 380px;
-  width: 380px;
+  height: 450px;
+  width: 400px;
   background-color: black;  
-  left: 1130px;
-  margin-top: 30px;
+  left: 1100px;
+  margin-top: 0px;
 }
+#sec4{
+  position: absolute;
+  height: 420px;
+  width: 500px;
+  background-color: black;
+  left: 230px;
+  top: 510px;
+}
+#sec5{
+  position: absolute;
+  height: 420px;
+  width: 500px;
+  background-color: black;
+  left: 770px;
+  top: 510px;
+}
+#sec6{
+  position: absolute;
+  height: 450px;
+  width: 400px;
+  background-color: black;
+  top: 1000px;
+  margin-left: 10px;
+}
+#sec7{
+  position: absolute;
+  height: 450px;
+  width: 500px;
+  background-color: black;
+  top: 1000px;
+  left: 500px;
+}
+#sec8{
+  position: absolute;
+  height: 450px;
+  width: 400px;
+  background-color: black;
+  top: 1000px;
+  left: 1100px;
+}
+#connector1{
+  width: 70px;
+  height: 550px;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 450px;
+  margin-left: 10px;
+}
+#connector2{
+  width: 70px;
+  height: 550px;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 450px;
+  left: 1430px;
+}
+
+
+
+
+
+
+
+
+
 #body1{
   width: 100%;
   height: 750px;
