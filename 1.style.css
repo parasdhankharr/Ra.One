@@ -1,11 +1,11 @@
 body{
     margin: 0px;
     /* Adding a subtle grid background for a techy feel */
-    background-color: #616060; /* A dark background is needed for the grid to show */
-    color: #161515;
+    background-color: #470303; /* A dark background is needed for the grid to show */
+    color: #ffffff;
     background-image: 
-        linear-gradient(rgba(182, 181, 181, 0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(241, 217, 217, 0.05) 1px, transparent 1px);
+        linear-gradient(rgba(255, 251, 251, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(254, 253, 253, 0.05) 1px, transparent 1px);
     background-size: 40px 40px;
 }
 #head1{
@@ -115,7 +115,9 @@ body{
   height: 750px;
   background-color: black;
   position: relative;
-  background-image: url("");
+  background-image: url("character.png");
+  background-position: center;
+  background-size: cover;
 }
 #btext1{
   position: absolute;
@@ -133,7 +135,7 @@ body{
   padding: 20px;
   font-size: 20px;
   left: 1010px;
-  top: 410px;
+  top: 510px;
   background-color: rgb(20, 20, 139);
   color: white;
   border: none;
@@ -170,7 +172,7 @@ body{
   height: 950px;
   background-color: black;
   position: relative;
-  background-image: url("");
+  background-image: url("poste.png");
   margin-top: 100px;
 
 }
@@ -196,13 +198,15 @@ body{
   cursor: pointer;
 }
 #b3{
-  width: 680px;
+  width: 880px;
   height: 520px;
   background-color: aqua;
   float: right;
   margin-right: 50px;
   margin-top: 80px;
-  background-image: url("");
+  background-image: url("heats.png");
+  background-size: cover;
+  background-position: center;
 }
 #know_more{
   padding: 20px;
