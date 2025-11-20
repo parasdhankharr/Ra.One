@@ -1,12 +1,13 @@
 body{
     margin: 0px;
     /* Adding a subtle grid background for a techy feel */
-    background-color: #4b4b4c; /* A dark background is needed for the grid to show */
+    background-color: #480802; /* A dark background is needed for the grid to show */
     color: #ffffff;
-    /* background-image: 
+    
+    background-image: 
         linear-gradient(rgba(255, 251, 251, 0.05) 1px, transparent 1px),
         linear-gradient(90deg, rgba(254, 253, 253, 0.05) 1px, transparent 1px);
-    background-size: 40px 40px; */
+    background-size: 40px 40px;
 }
 #head1{
     height: 100px;
@@ -73,9 +74,9 @@ body{
 #sec2{
   position: absolute;
   height: 380px;
-  width: 380px;
+  width: 480px;
   background-color: black;  
-  left: 590px;
+  left: 530px;
   margin-top: 30px;
 }
 #sec3{
@@ -148,7 +149,7 @@ body{
   height: 950px;
   background-color: black;
   position: relative;
-  background-image: url("poste.png");
+  background-image: url("poster.png");
   margin-top: 100px;
 
 }
@@ -180,7 +181,7 @@ body{
   float: right;
   margin-right: 50px;
   margin-top: 80px;
-  background-image: url("heats.png");
+  background-image: url("heats1.png");
   background-size: cover;
   background-position: center;
 }
