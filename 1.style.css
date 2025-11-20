@@ -4,10 +4,7 @@ body{
     background-color: #480802; /* A dark background is needed for the grid to show */
     color: #ffffff;
     
-    background-image: 
-        linear-gradient(rgba(255, 251, 251, 0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(254, 253, 253, 0.05) 1px, transparent 1px);
-    background-size: 40px 40px;
+    /*  */
 }
 #head1{
     height: 100px;
