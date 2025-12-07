@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     /* Adding a subtle grid background for a techy feel */
-    background-color: #480802; /* A dark background is needed for the grid to show */
+    background-color: #3d0c0c; /* A dark background is needed for the grid to show */
     color: #ffffff;
     
     /*  */
@@ -57,7 +57,37 @@ body{
 #about{
   position: absolute;
   top: 20px;
-  right: 30px;
+  left: 510px;
+}
+#theme{
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+#colorMenu{
+  position: absolute;
+  top: 60px;
+  right: 50px;
+}
+
+.themeBtn{
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 0px;
+  color: white;
+  border: none;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.themeBtn:hover{
+  cursor: pointer;
+  background-color: rgb(50, 50, 50);
+  color: rgb(160, 12, 12);
+  border-radius: 10px;
+  transform: scale(1.10);
 }
 
 
