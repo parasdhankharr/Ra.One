@@ -15,3 +15,9 @@ themeButtons.forEach(btn => {
         document.body.style.backgroundColor = btn.dataset.color;
     });
 });
+
+
+const myButton = document.getElementById("myButton")
+myButton.addEventListener("click",()=>{
+    alert("SERVER IS DOWN SORRY FOR THE DELAY")
+})
